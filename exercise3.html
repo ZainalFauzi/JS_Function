@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container-sm" style="padding-top: 15px;">
+      <div
+        class="alert alert-primary"
+        role="alert"
+        style="border: 2px solid black;"
+      >
+        <b
+          >3. Kita akan membuat program untuk menghitung umur kucing dalam usia
+          manusia. Poin-poinnya adalah: Pada usia 1 tahun, umur kucing adalah 15
+          kali umur manusia Pada usia 2 tahun, umur kucing adalah 24 kali umur
+          manusia Pada usia 3 tahun (> 24 tahun) dan seterusnya umur kucing
+          adalah ditambah 4 dari umur manusia ketika 24 tahun. Jadi jika umur
+          kucing saat ini 4 tahun berarti dalam kalender tahun kucing, umurnya
+          adalah 32 tahun. Buat sebuah ARROW function yang menerima parameter
+          umur kucing berdasarkan perhitungan tahun manusia.
+        </b>
+      </div>
+      <div
+        class="alert alert-secondary"
+        role="alert"
+        style="border: 2px solid black;"
+      >
+        <pre>
+            let umurKucing = (umur) => {
+                if (umur == 1) {
+                  console.log(15);
+                } else if (umur == 2) {
+                  console.log(24);
+                } else if (umur > 2) {
+                  console.log(16 + umur * 4);
+                }
+              };
+              umurKucing(4);</pre
+        >
+      </div>
+    </div>
+    <div class="container" style="text-align: center;">
+      <a class="btn btn-info" href="index.html" role="button">Home</a>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
